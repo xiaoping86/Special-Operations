@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --color-desktop: #c8c8d0;
+  --color-window: #e8e8ed;
+  --color-sidebar: #ececef;
+  --color-bg: #f5f5f7;
+  --color-surface: #ffffff;
+  --color-surface-2: #f2f2f4;
+  --color-fg: #1d1d1f;
+  --color-muted: #6e6e73;
+  --color-subtle: #86868b;
+  --color-border: #d2d2d7;
+  --color-hairline: #e5e5ea;
+  --color-accent: #0071e3;
+  --color-accent-fg: #ffffff;
+  --color-accent-soft: #e8f1fc;
+  --color-ok: #248a3d;
+  --color-ok-bg: #e5f8ea;
+  --color-bad: #d70015;
+  --color-bad-bg: #fde8ea;
+  --color-warn: #9a6700;
+  --color-traffic-red: #ff5f57;
+  --color-traffic-yellow: #febc2e;
+  --color-traffic-green: #28c840;
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+    "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --text-mac-xs: 0.6875rem;
+  --text-mac-sm: 0.75rem;
+  --text-mac: 0.8125rem;
+  --text-mac-md: 0.9375rem;
+  --text-mac-lg: 1.0625rem;
+  --text-mac-xl: 1.375rem;
+  --text-mac-2xl: 1.75rem;
+  --text-mac-3xl: 2rem;
+  --text-mac-4xl: 2.125rem;
+  --text-mac-5xl: 3.5rem;
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-window: 12px;
+  --shadow-window: 0 18px 50px rgb(0 0 0 / 0.18), 0 0 0 1px rgb(0 0 0 / 0.06);
+}
+
+@layer base {
+  html,
+  body,
+  #app {
+    min-height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-desktop);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.01em;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.stem-html img,
+.opt-html img {
+  display: block;
+  max-height: 200px;
+  margin: 8px 0;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-hairline);
+  padding: 8px;
+}
+
+.mac-window {
+  background: var(--color-bg);
+  box-shadow: var(--shadow-window);
+}
+
+.mac-titlebar {
+  background: linear-gradient(180deg, #f6f6f8 0%, #ececef 100%);
+}
+
+.mac-sidebar {
+  background: color-mix(in srgb, var(--color-sidebar) 88%, white);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.mac-toolbar {
+  background: color-mix(in srgb, var(--color-surface) 78%, transparent);
+  backdrop-filter: saturate(180%) blur(20px);
+}

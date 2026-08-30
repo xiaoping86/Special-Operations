@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "低压电工题库",
+      "hasCanvas": false,
+      "bodyTextLen": 154,
+      "bodyTextHash": "409742fa67160972bb1220a38d8a3ca85ceafa0b283d7f9b627506b13660077a",
+      "bodyTextPrefix": "低压电工题库 0/1303 练习 概览 顺序练习 随机练习 模拟考试 资料 错题本 收藏 成绩 电工作业 · 低压精选 题库 完",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "低压电工题库",
+      "hasCanvas": false,
+      "bodyTextLen": 129,
+      "bodyTextHash": "2cdd7c6052be7423864386a350f212a99862d31e1ee7535b10b2e1439c6e0b87",
+      "bodyTextPrefix": "低压电工题库 电工作业 · 低压精选 题库 完成进度 0% 0 / 1303 572 单选 731 判断 0 错题 继续练习 从",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
