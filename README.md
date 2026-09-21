@@ -10,6 +10,18 @@
 
 ---
 
+## Android 下载（v1.0.0）
+
+| 项目 | 链接 |
+|------|------|
+| 发布页 | [特种作业题库 v1.0.0](https://github.com/xiaoping86/lece01/releases/tag/v1.0.0) |
+| APK 直链 | [default.apk](https://github.com/xiaoping86/lece01/releases/download/v1.0.0/default.apk)（约 8.5 MB） |
+
+**安装：** 下载 APK → 允许「安装未知应用」→ 安装。  
+使用公共测试证书打包，仅供个人练习；系统若提示风险属正常现象。
+
+---
+
 ## 界面预览
 
 ### 练习
