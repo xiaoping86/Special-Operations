@@ -3,3 +3,15 @@ node_modules/
 .github_repo
 .env
 .env.*
+
+# Grok 脚手架 / 本地预览
+.grok/
+.vercel/
+
+# 日志与锁
+*.log
+.node_modules.lock
+
+# 系统杂项
+.DS_Store
+Thumbs.db
