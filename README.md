@@ -6,6 +6,26 @@
 
 ---
 
+## 界面预览
+
+### 练习
+
+![练习](screenshots/practice-1.png)
+
+![答题反馈](screenshots/practice-answer.png)
+
+![桌面端练习](screenshots/practice-mac.png)
+
+### 模拟考试
+
+![考试](screenshots/exam.png)
+
+![桌面端考试](screenshots/exam-mac.png)
+
+更多截图见目录 [`screenshots/`](./screenshots/) 与 [打包说明](./PACKAGING.md)。
+
+---
+
 ## 功能
 
 | 功能 | 说明 |
@@ -63,6 +83,7 @@ src/
   data/           # questions.json 题库 + 加载逻辑
   lib/            # 状态 store、工具函数
   routes/         # 首页 / 练习 / 考试 / 历史
+screenshots/      # 界面截图（练习 / 考试）
 public/           # 静态资源
 ```
 
@@ -72,9 +93,10 @@ public/           # 静态资源
 
 详见 **[PACKAGING.md](./PACKAGING.md)**，包括：
 
-1. 静态站点 / Vercel 部署  
-2. 用 HBuilderX 打 Android APK  
-3. 常见打包报错处理（AppID、通讯录权限、证书）
+1. 界面截图预览  
+2. 静态站点 / Vercel 部署  
+3. 用 HBuilderX 打 Android APK  
+4. 常见打包报错处理（AppID、通讯录权限、证书）
 
 ---
 

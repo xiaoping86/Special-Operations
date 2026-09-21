@@ -4,6 +4,27 @@
 
 ---
 
+## 界面预览
+
+### 练习
+
+| 手机端 | 桌面端 |
+|--------|--------|
+| ![练习1](screenshots/practice-1.png) | ![练习 mac](screenshots/practice-mac.png) |
+| ![练习2](screenshots/practice-2.png) | ![答题反馈](screenshots/practice-answer.png) |
+| ![下一题](screenshots/practice-next.png) | |
+
+### 模拟考试
+
+| 手机端 | 桌面端 |
+|--------|--------|
+| ![考试](screenshots/exam.png) | ![考试 mac](screenshots/exam-mac.png) |
+| ![考试2](screenshots/exam2.png) | |
+
+截图文件位于仓库目录 `screenshots/`。
+
+---
+
 ## 一、网页部署（推荐）
 
 ### 1. 本地构建
@@ -36,7 +57,7 @@ npm run preview
 
 ## 二、HBuilderX 打 Android APK
 
-适合需要安装到手机、离线使用的场景。
+适合需要安装到手机、离线使用的场景。打包完成后效果可参考上方「练习 / 考试」截图。
 
 ### 方案 A：5+ App 壳 + 构建后的静态页（常用）
 
